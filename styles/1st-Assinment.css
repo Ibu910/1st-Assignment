@@ -173,6 +173,102 @@ border: 1px solid red;
     align-items: center;
     line-height: 19px;
 } 
+#notes{
+    width: 1600px;
+    height: 448px;
+    border: 1px solid red;
+    padding: 0 120px 120px 120px;
+    text-align: center;
+
+}
+#notes .notes-section{
+    width: 1360px;
+    height: 136px;
+    border: 1px solid red;
+    margin-bottom: 44px;
+  
+}
+#notes .notes-section h2{
+font-size: 48px;
+font-weight: 700;
+line-height: 58px;
+color: #000000;
+margin-bottom: 16px;
+border: 1px solid red;
+height: 116px;
+display: flex;
+flex-direction: column;
+justify-content: end;
+}
+#notes .notes-section p{
+    height: 20px;
+    border: 1px solid red;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    color:#627382 ;
+}
+
+#notes .notes-grid{
+    display: flex;
+    border: 1px solid red;
+    gap: 24px;
+    width: 1360px;
+    margin: 0 auto;
+}
+ #notes .notes-grid .note-card{
+    border: 1px solid red;
+    height: 300px;
+    max-width: 322px;
+    padding: 24px;
+    border-radius: 8px;
+    color:#FFFFFF;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 0 8px 0 #000000b8;
+    
+     
+} 
+
+#notes .notes-grid .note-card .icons{
+   max-width: 60px;
+    height: 60px;
+    background: rgb(249, 85, 85, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    border-radius: 50%;
+    margin: 69.5px  auto 16px auto;
+   
+    
+    
+}
+#notes .notes-grid .note-card .icons img{
+    width: 32px;
+    height: 32px;
+    align-items: center;
+    justify-content: center; 
+}
+
+.note-card h3{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    color: #000000;
+    
+}
+.note-card p{
+    margin-top:16px;
+    font-size: 16px;
+    color: #627382;
+    line-height: 20px;
+    height: 40px;
+    
+    
+} 
+
+
+
  
 
 
