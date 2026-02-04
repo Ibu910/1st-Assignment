@@ -192,7 +192,7 @@ border: 1px solid red;
 font-size: 48px;
 font-weight: 700;
 line-height: 58px;
-color: #000000;
+color: #001931;
 margin-bottom: 16px;
 border: 1px solid red;
 height: 116px;
@@ -254,7 +254,7 @@ justify-content: end;
     font-size: 24px;
     font-weight: 600;
     line-height: 29px;
-    color: #000000;
+    color: #001931;
     
 }
 .note-card p{
@@ -266,6 +266,86 @@ justify-content: end;
     
     
 } 
+#brain{
+   display: flex;
+   width: 1600px;
+   border: 1px solid red;
+   height: 840px;
+   padding: 120px;
+   gap: 60px;
+
+   
+}
+#brain .brain-img img{
+    width: 600px;
+    height: 600px;
+    border: 1px solid red;
+}
+#brain .brain-content{
+    width: 700px;
+    height: 396px;
+    border: 1px solid red;
+    gap: 40px;
+    margin: auto;
+}
+#brain .brain-content .brain-content-section{
+   height: 228px; 
+   border: 1px solid red;
+}
+#brain .brain-content .brain-content-section .p{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    color:#30B868;
+    height: 20px;
+    border: 1px solid red;
+    margin-bottom: 16px;
+}
+#brain .brain-content .brain-content-section h2{
+    border: 1px solid red;
+    height: 116px;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    margin-bottom: 16px;
+    color: #001931;
+}
+#brain .brain-content .brain-content-section .brain-description{
+    border: 1px solid red;
+    height: 60px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color:#627382;
+}
+#brain .brain-content .menu{
+    height: 128px;
+    border: 1px solid red;
+    margin-top: 40px;
+}
+#brain .brain-content .menu .a{
+    height: 20px;
+    border: 1px solid red;
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+#brain .brain-content .menu .a img{
+    width: 20px;
+    height: 20px;
+}
+#brain .brain-content .menu .a p{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #001931;
+}
+
+
+
+
+
 
 
 
