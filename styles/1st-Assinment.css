@@ -12,10 +12,11 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0 auto;
-    border: 1PX solid red;
-    width: 1600px;
+    
+    height: 92px;
+   width: 1600px;
     padding: 16px 120px;
+   
 
 }
 nav .logo{
@@ -54,41 +55,39 @@ nav .nav-btn{
     gap: 10px;
 
 }
+header{
+    width:1600px;
+    max-height: 674px;
+    background-image: url(../assets/hero-bg.png); 
+}
+
 #banner{
-    background-image: url(../assets/hero-bg.png);
-    margin: 0 auto;
-    border: 1px solid red;
-    
+    padding: 70px 120px 134px 120px; 
     width: 1600px;
     height: 674px;
-    /* padding: 70px 120px 134px 120px; */
+    
 }
 #banner .banner-section{
-    border: 1px solid red;
+    
     width: 85%;
     max-width: 1360px;
     height: 379px;
-    margin: 115.5px 120px  179.5px 120px;
-
-
-
+     margin: 45.5px 120px  179.5px 120px;  
+    gap: 32px; 
 }
 #banner .banner-content{
-    border: 1px solid red;
-    height: 295px;
-    text-align: center;
+    margin: 0 auto;
     gap: 16px;
 }
 #banner .banner-content .badge{
-   width:229px ; 
-   
+    width:229px ; 
     height: 35px;
     border: none;
     border-radius: 1000px;
     padding: 8px 12px;
-    border: 1px solid red;
-    background-color: #FFFFFF;
-    margin:0 565.5px 16px;
+    
+    background-color:rgba(251, 251, 251, 1);
+    margin:0 auto 16px;
     display: flex;
 
 }
@@ -112,33 +111,28 @@ nav .nav-btn{
    width: 770px;
    height: 168px;
    line-height: 84px;
-   letter-spacing: 0%;
-   margin-top: 16px;
-   margin-left: 295px;
-border: 1px solid red;
+   margin: auto;
 }
+
 #banner .banner-content h1 .green{
     color: #30B868;
 }
 #banner .banner-content .banner-text{
-    border: 1px solid red;
-    height: 60px;
+   
+     height: 60px;
     font-size: 18px;
     font-weight: 400;
     line-height: 24px;
     color: #FFFFFF;
-    text-align: center;
     margin-top: 16px;
-    width: 1360px;
+    text-align: center; 
 }
 #banner .btn-sention{
     width: 465px;
     height: 52px;
-    border: 1px solid red;
     gap: 16px;
     display: flex;
-    align-items: center;
-    margin:32px 447.5px;
+    margin:32px auto;
     
     
 }
@@ -172,11 +166,11 @@ border: 1px solid red;
     display: flex;
     align-items: center;
     line-height: 19px;
-} 
+}  
 #notes{
     width: 1600px;
     height: 448px;
-    border: 1px solid red;
+    
     padding: 0 120px 120px 120px;
     text-align: center;
 
@@ -184,7 +178,7 @@ border: 1px solid red;
 #notes .notes-section{
     width: 1360px;
     height: 136px;
-    border: 1px solid red;
+    
     margin-bottom: 44px;
   
 }
@@ -194,7 +188,7 @@ font-weight: 700;
 line-height: 58px;
 color: #001931;
 margin-bottom: 16px;
-border: 1px solid red;
+
 height: 116px;
 display: flex;
 flex-direction: column;
@@ -202,7 +196,7 @@ justify-content: end;
 }
 #notes .notes-section p{
     height: 20px;
-    border: 1px solid red;
+   
     font-size: 16px;
     line-height: 20px;
     font-weight: 400;
@@ -211,13 +205,12 @@ justify-content: end;
 
 #notes .notes-grid{
     display: flex;
-    border: 1px solid red;
     gap: 24px;
     width: 1360px;
     margin: 0 auto;
 }
  #notes .notes-grid .note-card{
-    border: 1px solid red;
+    
     height: 300px;
     max-width: 322px;
     padding: 24px;
@@ -269,7 +262,7 @@ justify-content: end;
 #brain{
    display: flex;
    width: 1600px;
-   border: 1px solid red;
+   
    height: 840px;
    padding: 120px;
    gap: 60px;
@@ -279,18 +272,18 @@ justify-content: end;
 #brain .brain-img img{
     width: 600px;
     height: 600px;
-    border: 1px solid red;
+   
 }
 #brain .brain-content{
     width: 700px;
     height: 396px;
-    border: 1px solid red;
+    
     gap: 40px;
     margin: auto;
 }
 #brain .brain-content .brain-content-section{
    height: 228px; 
-   border: 1px solid red;
+   
 }
 #brain .brain-content .brain-content-section .p{
     font-size: 16px;
@@ -298,11 +291,11 @@ justify-content: end;
     line-height: 20px;
     color:#30B868;
     height: 20px;
-    border: 1px solid red;
+   
     margin-bottom: 16px;
 }
 #brain .brain-content .brain-content-section h2{
-    border: 1px solid red;
+   
     height: 116px;
     font-size: 48px;
     font-weight: 700;
@@ -311,7 +304,7 @@ justify-content: end;
     color: #001931;
 }
 #brain .brain-content .brain-content-section .brain-description{
-    border: 1px solid red;
+
     height: 60px;
     font-size: 16px;
     font-weight: 400;
@@ -320,12 +313,12 @@ justify-content: end;
 }
 #brain .brain-content .menu{
     height: 128px;
-    border: 1px solid red;
+    
     margin-top: 40px;
 }
 #brain .brain-content .menu .a{
     height: 20px;
-    border: 1px solid red;
+    
     margin-bottom: 16px;
     display: flex;
     align-items: center;
@@ -341,6 +334,132 @@ justify-content: end;
     line-height: 20px;
     color: #001931;
 }
+#cta{
+   margin-top: 2px;
+   
+   height: 506px;
+   width: 1600px;
+   padding: 2px 120px 120px 120px; 
+}
+#cta .cta-section{
+    padding: 80px 40px;
+    
+    width: 1360px;
+    height: 384px;
+}
+#cta .cta-section .cta-content{
+
+    width: 1280px;
+    height: 112px;
+
+
+}
+#cta .cta-section .cta-content h2{
+    font-size: 40px;
+    font-weight: 700px;
+    line-height: 48px;
+    text-align: center;
+    color:#001931 ;
+    margin-bottom: 16px;
+}
+#cta .cta-section  p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #627382 ;
+    height: 48;
+    text-align: center;
+}
+#cta .cta-section .cta-btn{
+    height: 88px;
+    
+
+}
+#cta .cta-section .cta-btn .p-btn{
+background-color: #30B868;
+color: #FFFFFF;
+ width: 194px;
+ height: 52px;
+ padding: 12px 16px;
+ text-align: center;
+ font-size: 16px;
+ font-weight: 600;
+ line-height: 19px;
+ padding: 16px;
+ gap: 10px;
+ border-radius: 4px;
+ border: none;
+ display: flex;
+margin: 0 auto 16px;
+}
+.footer-section{
+    width: 1600px;
+    height: 348px;
+    padding: 120px 120px 30px 120px;
+    background-color: #001931;
+
+    
+}
+.footer-section hr{
+    margin: 30px 0 ;
+    border-color: #244157;
+}
+.footer-content{
+    width: 1360px;
+
+    height: 64px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+.footer-content .footer-logo{
+    max-width: 350px;
+    height: 60px;
+}
+.footer-content .footer-logo img{
+    max-width: 139px;
+    height: 60px;
+}
+.socail{
+    width: 220px;
+    height: 64px;
+    
+}
+.socail h2{
+font-size: 20px;
+font-weight: 500;
+line-height: 28px;
+color: rgba(251, 251, 251, 1);
+margin-bottom: 16px;
+}
+
+
+.socail .links{
+    display: flex;
+    gap: 16px;
+    margin-bottom: 0;
+}
+.socail .links .icons{
+    width: 20px;
+    height: 20px;
+}
+
+    
+
+
+.line{
+    height: 1px;
+    width: 1360px;
+    background: 255, 255 ,255, 0.15;
+}
+ p{
+    color: rgba(251, 251, 251, 1);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+}
+
 
 
 
